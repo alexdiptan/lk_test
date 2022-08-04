@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title|default:"Информация о пользователе" }}</title>
+</head>
+<body>
+    {% block menu %}
+        {% include 'lk/includes/inc_main_menu.html' %}
+    {% endblock %}
+    <h1>Личный кабинет</h1>
+</body>
+</html>

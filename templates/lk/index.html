@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title|default:"Главная страница" }}</title>
+</head>
+<body>
+    {% block menu %}
+        {% include 'lk/includes/inc_main_menu.html' %}
+    {% endblock %}
+    <h1>Главная страница</h1>
+</body>
+</html>
